@@ -3,7 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopSolution.WebApp", "eShopSolution.WebApp\eShopSolution.WebApp.csproj", "{72A4B94D-542C-4D2F-A70A-2270C68609A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopSolution.WebApp", "eShopSolution.WebApp\eShopSolution.WebApp.csproj", "{72A4B94D-542C-4D2F-A70A-2270C68609A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E9B1EBBA-289E-4771-A2CC-91E2ED4B3926}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopSolution.Data", "eShopSolution.Data\eShopSolution.Data.csproj", "{042622D2-9E90-4105-8099-D0DD76F1A228}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopSolution.ApplicationService", "eShopSolution.ApplicationService\eShopSolution.ApplicationService.csproj", "{E1A46AF3-E926-437A-BE8E-08B242127228}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +24,14 @@ Global
 		{72A4B94D-542C-4D2F-A70A-2270C68609A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72A4B94D-542C-4D2F-A70A-2270C68609A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72A4B94D-542C-4D2F-A70A-2270C68609A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{042622D2-9E90-4105-8099-D0DD76F1A228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{042622D2-9E90-4105-8099-D0DD76F1A228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{042622D2-9E90-4105-8099-D0DD76F1A228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{042622D2-9E90-4105-8099-D0DD76F1A228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1A46AF3-E926-437A-BE8E-08B242127228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A46AF3-E926-437A-BE8E-08B242127228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A46AF3-E926-437A-BE8E-08B242127228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A46AF3-E926-437A-BE8E-08B242127228}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
